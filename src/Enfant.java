@@ -21,7 +21,7 @@ public class Enfant extends Etrehumain {
         sport = var;
     }
     public String getSport(){
-        return sport;
+        return "Votre sport : " + sport;
     }
 
 }

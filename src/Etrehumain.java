@@ -1,28 +1,28 @@
 public class Etrehumain {
     private String nom;
     private String prenom;
-    private int age;
+    private String age;
 
 
     public void setNom(String var) {
         nom = var;
     }
     public String getNom(){
-        return nom;
+        return "Votre nom est : " + nom;
     }
 
     public void setPrenom(String var) {
         prenom = var;
     }
     public String getPrenom(){
-        return prenom;
+        return "Votre prenom est : " + prenom;
     }
 
-    public void setAge(int var) {
+    public void setAge(String var) {
         age = var;
     }
-    public int getAge(){
-        return age;
+    public String getAge(){
+        return "Votre age : " + age;
     }
 
 }
